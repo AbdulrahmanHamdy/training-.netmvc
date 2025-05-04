@@ -1,0 +1,41 @@
+﻿@model Employee
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+<form asp-action="SaveEdit" asp-controller="Employee" method="post">
+    <input type="hidden" name="Id" value="@Model.Id" /> <!-- Ensure ID is sent in the form -->
+
+    <div>
+        <label>Name</label>
+        <input type="text" value="@Model.Name" name="Name" class="form-control" />
+    </div>
+
+    <div>
+        <label>Address</label>
+        <input type="text" value="@Model.Address" name="Address" class="form-control" />
+    </div>
+
+    <div>
+        <label>Salary</label>
+        <input type="number" value="@Model.Salary" name="Salary" class="form-control" />
+    </div>
+
+    <div>
+        <label>Image URL</label>
+        <input type="text" value="@Model.Image" name="Image" class="form-control" />
+    </div>
+
+    <div>
+        <label>Job Title</label>
+        <input type="text" value="@Model.Joptitle" name="Jobtitle" class="form-control" />
+    </div>
+
+    <div>
+        <label>Department ID</label>
+        <input type="number" value="@Model.DepartmentId" name="DepartmentId" class="form-control" />
+    </div>
+
+    <input type="submit" value="Save" class="btn btn-success" />
+</form>

@@ -1,0 +1,126 @@
+/* Global Styles */
+html {
+    font-size: 16px;
+    position: relative;
+    min-height: 100%;
+    scroll-behavior: smooth;
+    background: #f4f4f4;
+    color: #333;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: white;
+}
+
+/* Buttons */
+.btn {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    }
+
+/* Primary Button */
+.btn-primary {
+    background: #007bff;
+    color: white;
+}
+
+    .btn-primary:hover {
+        background: #0056b3;
+    }
+
+/* Secondary Button */
+.btn-secondary {
+    background: #6c757d;
+    color: white;
+}
+
+    .btn-secondary:hover {
+        background: #545b62;
+    }
+
+/* Card Component */
+.card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    width: 320px;
+    text-align: center;
+}
+
+    .card:hover {
+        transform: scale(1.03);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+/* Form Controls */
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    padding: 10px;
+    background: #ffffff;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+
+    .form-control:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+    }
+
+/* Navigation */
+.navbar {
+    background: #ffffff;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+    .nav-link:hover {
+        color: #0056b3;
+    }
+
+/* Responsive */
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 10px 16px;
+    }
+
+    .card {
+        width: 280px;
+    }
+}
