@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
+
 namespace progectmvc.Filters
 {
     public class HandelErrorAttribute : Attribute,IExceptionFilter
