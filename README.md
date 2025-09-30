@@ -1,4 +1,4 @@
-# ASP.NET MVC Training Project 🚀
+# ASP.NET MVC Training Project 🚀For ITI
 
 This repository contains a collection of projects and exercises created during my learning journey with **ASP.NET Core MVC**. It showcases basic and intermediate concepts like routing, controllers, models, views, validation, and Entity Framework integration.
 
