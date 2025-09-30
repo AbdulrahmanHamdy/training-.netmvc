@@ -8,6 +8,7 @@ using progectmvc.Models;
 
 #nullable disable
 
+
 namespace progectmvc.Migrations
 {
     [DbContext(typeof(Context))]
