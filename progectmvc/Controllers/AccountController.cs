@@ -26,7 +26,6 @@ namespace progectmvc.Controllers
         {
             if (ModelState.IsValid) 
             {
-               // Mapping
                 ApplicationUser appuser = new ApplicationUser();
                 //UserManager<ApplicationUser> manager=new UserManager<ApplicationUser>
                 appuser.Address = userviewmodel.Address;
