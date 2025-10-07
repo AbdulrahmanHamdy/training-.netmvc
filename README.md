@@ -17,20 +17,13 @@ This repository contains a collection of projects and exercises created during m
 
 ---
 
-## 🧱 Projects
 
-| Project | Description |
-|--------|-------------|
-| `TodoApp` | A simple to-do list app with CRUD |
-| `BookStore` | Manage books, authors, and categories |
-| `UserManager` | Registration, login, and role management |
-| `BlogSystem` | Posts, comments, categories, with user auth |
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **.NET Core MVC 7.0**
+- **.NET Core MVC 8.0**
 - **C#**
 - **Entity Framework Core**
 - **SQL Server LocalDB**
